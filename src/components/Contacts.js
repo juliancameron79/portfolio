@@ -34,9 +34,7 @@ const Contacts = () => {
     emailjs
       .send(serviceID, templateID, variables, userID)
       .then(() => {
-        setSuccessMessage(
-          "Form sent successfully! I'll contact you as soon as possible."
-        );
+        setSuccessMessage("Form sent successfully! I'll contact you as soon as possible.");
       })
       .catch((err) => console.error(`Something went wrong ${err}`));
   };
@@ -45,9 +43,7 @@ const Contacts = () => {
     <div className="contacts">
       <div className="text-center">
         <h1>contact me</h1>
-        <p>
-          Please fill out the form and I'll contact you as soon as possible.
-        </p>
+        <p>Please fill out the form and I'll contact you as soon as possible.</p>
         <span className="success-message">{successMessage}</span>
       </div>
       <div className="container">
@@ -65,16 +61,13 @@ const Contacts = () => {
                     required: "Please enter your name",
                     maxLength: {
                       value: 20,
-                      message:
-                        "Please enter a name with fewer than 20 characters",
+                      message: "Please enter a name with fewer than 20 characters",
                     },
                   })}
                 />
                 <div className="line"></div>
               </div>
-              <span className="error-message">
-                {errors.name && errors.name.message}
-              </span>
+              <span className="error-message">{errors.name && errors.name.message}</span>
               {/* PHONE INPUT */}
               <div className="text-center">
                 <input
@@ -88,9 +81,7 @@ const Contacts = () => {
                 />
                 <div className="line"></div>
               </div>
-              <span className="error-message">
-                {errors.phone && errors.phone.message}
-              </span>
+              <span className="error-message">{errors.phone && errors.phone.message}</span>
               {/* EMAIL INPUT */}
               <div className="text-center">
                 <input
@@ -108,9 +99,7 @@ const Contacts = () => {
                 />
                 <div className="line"></div>
               </div>
-              <span className="error-message">
-                {errors.email && errors.email.message}
-              </span>
+              <span className="error-message">{errors.email && errors.email.message}</span>
               {/* SUBJECT INPUT */}
               <div className="text-center">
                 <input
@@ -124,9 +113,7 @@ const Contacts = () => {
                 />
                 <div className="line"></div>
               </div>
-              <span className="error-message">
-                {errors.subject && errors.subject.message}
-              </span>
+              <span className="error-message">{errors.subject && errors.subject.message}</span>
             </div>
             <div className="col-md-6 col-xs-12">
               {/* DESCRIPTION INPUT */}
@@ -137,15 +124,12 @@ const Contacts = () => {
                   placeholder="Please leave your message..."
                   name="description"
                   {...register("description", {
-                    required:
-                      "Please describe your project needs or a message...",
+                    required: "Please describe your project needs or a message...",
                   })}
                 ></textarea>
                 <div className="line"></div>
               </div>
-              <span className="error-message">
-                {errors.description && errors.description.message}
-              </span>
+              <span className="error-message">{errors.description && errors.description.message}</span>
               <button className="btn-main-offer contact-btn" type="submit">
                 contact me
               </button>

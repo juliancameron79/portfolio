@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  TwitterShareButton,
-  TwitterIcon,
-  LinkedinShareButton,
-  LinkedinIcon,
-} from "react-share";
+import { TwitterShareButton, TwitterIcon, LinkedinShareButton, LinkedinIcon } from "react-share";
 
 const Footer = () => {
   return (
@@ -13,9 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias!
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias!</p>
             </div>
             <div className="d-flex">
               <a href="tel:076-429-1257">+46(0)76-429-1257</a>
@@ -43,25 +36,16 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
-              <TwitterShareButton
-                url={""}
-                quote={"Full Stack Developer"}
-                hashtag="#fullstack"
-              >
+              <TwitterShareButton url={""} quote={"Full Stack Developer"} hashtag="#fullstack">
                 <TwitterIcon className="mx-3" size={36}></TwitterIcon>
               </TwitterShareButton>
-              <LinkedinShareButton
-                url={"https://www.linkedin.com/in/julian-cameron/"}
-                quote={"Full Stack Developer"}
-                hashtag="#fullstack"
-              >
+              <LinkedinShareButton url={"https://www.linkedin.com/in/julian-cameron/"} quote={"Full Stack Developer"} hashtag="#fullstack">
                 <LinkedinIcon className="mx-3" size={36}></LinkedinIcon>
               </LinkedinShareButton>
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;
-              {new Date().getFullYear()}&nbsp;Julian Cameron | All Rights
-              Reserved
+              {new Date().getFullYear()}&nbsp;Julian Cameron | All Rights Reserved
             </p>
           </div>
         </div>
