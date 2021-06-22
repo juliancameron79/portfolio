@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f94f22fb.chunk.css",
+    "main.js": "/portfolio/static/js/main.55f24115.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.55f24115.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7f05b265.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7f05b265.js.map",
+    "static/css/2.bd87f2c7.chunk.css": "/portfolio/static/css/2.bd87f2c7.chunk.css",
+    "static/js/2.56610a73.chunk.js": "/portfolio/static/js/2.56610a73.chunk.js",
+    "static/js/2.56610a73.chunk.js.map": "/portfolio/static/js/2.56610a73.chunk.js.map",
+    "static/js/3.a764d5bd.chunk.js": "/portfolio/static/js/3.a764d5bd.chunk.js",
+    "static/js/3.a764d5bd.chunk.js.map": "/portfolio/static/js/3.a764d5bd.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/2.bd87f2c7.chunk.css.map": "/portfolio/static/css/2.bd87f2c7.chunk.css.map",
+    "static/css/main.f94f22fb.chunk.css.map": "/portfolio/static/css/main.f94f22fb.chunk.css.map",
+    "static/js/2.56610a73.chunk.js.LICENSE.txt": "/portfolio/static/js/2.56610a73.chunk.js.LICENSE.txt",
+    "static/media/evcn-device-iMac.8c35732e.png": "/portfolio/static/media/evcn-device-iMac.8c35732e.png",
+    "static/media/logo.a816ceee.png": "/portfolio/static/media/logo.a816ceee.png",
+    "static/media/me.46f79cce.jpeg": "/portfolio/static/media/me.46f79cce.jpeg",
+    "static/media/milestone-floristry-iMac.75f35a65.png": "/portfolio/static/media/milestone-floristry-iMac.75f35a65.png",
+    "static/media/App.css": "/portfolio/static/media/pexels-mnm-zameer-330858.c4b69a7a.jpg",
+    "static/media/recipe-heaven-iMac.ae864d24.png": "/portfolio/static/media/recipe-heaven-iMac.ae864d24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7f05b265.js",
+    "static/css/2.bd87f2c7.chunk.css",
+    "static/js/2.56610a73.chunk.js",
+    "static/css/main.f94f22fb.chunk.css",
+    "static/js/main.55f24115.chunk.js"
+  ]
+}
