@@ -5,7 +5,7 @@ import { faLaptopCode, faServer, faPencilRuler } from "@fortawesome/free-solid-s
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <h1 className="py-5">Skills</h1>
       <div className="container">
         <div className="row">
